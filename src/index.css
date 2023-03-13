@@ -1,13 +1,99 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font-family: 'Lucida Console';
+    font-size: xx-large;
+
+    margin: 0;
+
+    width: 100%;
+    text-align: center;
+
+    background-color: #e7c8be;
+    color: #69736b;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+button {
+    font-family: 'Lucida Console';
+    font-size: x-large;
+    
+    width: 20vw;
+    height: 10vh;
+    
+    border: none;
+    border-radius: 5px;
+    box-shadow: 3px 5px 5px #e2b5b3;
+    
+    background-color: #e2bdb3;
+    color: #69736b;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:focus {
+    text-decoration-color: red;
+}
+
+input {
+    font-family: 'Lucida Console';
+    font-size: x-large;
+
+    width: 98%;
+    height: 30px;
+    
+    border: none;
+    border-radius: 5px;
+    background-color: #e2bdb3;
+    color: #69736b;
+    caret-color: #69736b;
+}
+
+input:focus {
+    outline: none;
+}
+
+a {
+    text-decoration-color: #69736b;
+    color: #69736b;
+}
+
+footer {
+    font-size: x-large;
+
+    margin: 20px;
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.quote {
+    color: #d19998;
+}
+
+.quote--correct {
+    color: #69736b;
+}
+
+.quote--incorrect {
+    color: #f08080;
+}
+
+.quote--info-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#quote--source {
+    width: 500px;
+}
+
+.quote--padding {
+    padding: 10px;
+}
+
+.end, .start, .loading {
+    margin-top: 150px;
 }
